@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background: #3b414d;
+}
+.navbar{
+    padding: .8rem;
+}
+h3{
+    padding-top: 5px;
+}
+.navbar-nav li{
+    padding-right: 20px;
+}
+.nav-link{
+    font-size: 1.1em !important;
+}
+.carousel-inner img{
+    width: 100%;
+    height: 100%;;
+}
+.img-fluid{
+    padding: 0;
+    margin: 0;
+}
+.containet-fluid{
+    background: #3b414d;
+}
+.carousel-caption{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption h1{
+    font-size: 500%;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 15px #000;
+}
+.carousel-caption h3{
+    font-size: 200%;
+    font-weight: 500;
+    text-shadow: 1px 1px 10px #000;
+    padding-bottom: 1rem;
+}
+.btm-primary{
+    background-color: #6648b1;
+    border: 1px solid #6648b1;
+}
+.btm-primary:hover{
+    background-color: #563d7c;
+    border: 1px solid #563d7c;
+}
+.jumbotron{
+    padding: 1rem;
+    border-radius: 0;
+    background: #3b414d;
+}
+.padding{
+    padding-bottom: 2rem;
+}
+.welcome{
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+.welcome hr{
+    border-top: 2px solid #b4b4b4;
+    width: 95%;
+    margin-top: .3rem;
+    margin-bottom: 1rem;
+}
+.fa-code{
+    color:#e54d26;
+}
+.fa-bold{
+    color:#563d7c;
+}
+.fa-css3{
+    color:#2163af
+}
+.fa-code, .fa-bold, .fa-css3{
+    font-size: 4em;
+    margin: 1rem;
+}
+.fun{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.gif{
+    max-width: 100%;
+}
+.social a{
+    font-size: 4.5em;
+    padding: 3rem;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #00aced;
+}
+.fa-google-plus-g{
+    color: #dd4b39;
+}
+.fa-instagram{
+    color: #517fa4;
+}
+.fa-youtube{
+    color: #bb0000;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-instagram:hover, 
+.fa-youtube:hover{
+    color: #d5d5d5;
+}
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding-top: 2rem;
+}
+hr.light{
+    border-top: 1px solid #d5d5d5;
+    width: 75%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+footer a{
+    color: #d5d5d5;
+}
+hr.linht-100{
+    border-top: 1px solid #d5d5d5;
+    width: 100%;
+    margin-top: .8rem;
+    margin-bottom: 1rem;
+}
+.portfolio{
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.6); /* Тень */
+}
+
+.mfp-no-margins img.mfp-img {
+	padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+	top: 0;
+	bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+	padding: 0;
+}
+
+
+.mfp-fade.mfp-bg {
+    opacity: 0;
+  
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  /* overlay animate in */
+  .mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  /* overlay animate out */
+  .mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+  
+  /* content at start */
+  .mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* content animate it */
+  .mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  /* content animate out */
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }
+/* Стили формы */
+#form {
+    width: 75%;
+    margin: 0 auto;
+    
+}
+ 
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationMessage, #applicationTelephone {
+    width: 100%;
+    height: 55px;
+    background: none;
+    margin-top: 25px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*Стили полей при клике по ним*/
+#applicationName:focus, #applicationEmail:focus, #applicationMessage:focus, #applicationTelephone:focus {
+    border: 1px solid #30ad64;
+}
+#applicationMessage{
+    height: 150px;
+    overflow: hidden;
+    text-align: top;
+    font-size: 15px;
+}
+ 
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-data-validation-error-msg {
+    color: #efefef;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: center;
+    font-size: 20px;
+}
+.help-block{
+    width: 50%;
+    background: none;
+    margin-top: 40px;
+    text-align: right;
+    color: red;
+    font-size: 20px;
+    margin-left: 20%;
+}
+.form-error{
+    margin-top: 40px;
+}
+ 
+::-moz-data-validation-error-msg  {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: right;
+}  /* Firefox 19+ */
+ 
+:-moz-data-validation-error-msg {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: right;
+}  /* Firefox 18- */
+ 
+:-ms-input-data-validation-error-msg {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: right;
+}
+ 
+::placeholder {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+    text-align: center;
+}
+input {
+    outline:none;
+}
+textarea {
+    outline:none;
+}
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #30ad64;
+    border: none;
+    width: 100%;
+    height: 73px;
+    border-radius: 30px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #d68c18;
+    }
+.oneSecond{
+    margin-top: 20px;
+}
+
+
+@media (max-width:992px){
+    .social a{
+        font-size: 4em;
+        padding: 2rem;
+    }
+}
+@media(max-width: 768px){
+    .carousel-caption{
+        top: 45%;
+    }
+    .carousel-caption h1{
+        font-size: 350%;
+    }
+    .carousel-caption h3{
+        font-size: 140%;
+        font-weight: 400;
+        padding-bottom: .2rem;
+    }
+    .carousel-caption .btn{
+        font-size: 150%;
+        padding: 8px 14px;
+    }
+    .display-4{
+        font-size: 200%;
+    }
+    .social a{
+        font-size: 2.5em;
+        padding: 1.2rem;
+    }
+    #applicationName, #applicationEmail, #applicationMessage, #applicationTelephone {
+        font-size: 18px;
+    }
+    .applicationButton {
+        font-size: 12px;
+        
+    }
+    #form{
+        margin-bottom: 10%;
+    }
+}
+@mediz(max-width: 576px){
+    .carousel-caption{
+        top: 40%;
+    }
+    .carousel-caption h1{
+        font-size: 250%;
+    }
+    .carousel-caption h3{
+        font-size: 110%;
+        
+    }
+    .carousel-caption .btn{
+        font-size: 90%;
+        padding: 4px 8px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .display-4{
+        font-size: 160%;
+    }
+    .social a{
+        font-size: 2em;
+        padding: .7rem;
+    }
+    #applicationName, #applicationEmail, #applicationMessage, #applicationTelephone {
+        font-size: 16px;
+    }
+    .applicationButton {
+        font-size: 12px;
+    }
+    #form{
+        margin-bottom: 10%;
+    }
+}
+
+
+/*---Firefox Bug Fix 
+.carousel-item {
+    transition: -webkit-transform 0.5s ease;
+    transition: transform 0.5s ease;
+    transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+    -webkit-backface-visibility: visible;
+    backface-visibility: visible;
+  }
+  /*--- Fixed Background Image 
+  figure {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    margin: 0!important;
+  }
+  .fixed-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  #fixed {
+    background-image: url('../img/mac.png');
+    background-attachment: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    
+  }
+  /*--- Bootstrap Padding Fix 
+  [class*="col-"] {
+      padding: 1rem;
+  }--*/
