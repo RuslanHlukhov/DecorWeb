@@ -5,6 +5,7 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     background: #3b414d;
+    text-align: justify
 }
 .navbar{
     padding: .8rem;
