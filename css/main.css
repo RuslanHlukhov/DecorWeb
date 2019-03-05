@@ -6,6 +6,7 @@ html, body{
     color: #fff;
     background: #3b414d;
     text-align: justify
+    overflow-x:hidden;
 }
 .navbar{
     padding: .8rem;
