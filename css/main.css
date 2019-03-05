@@ -5,12 +5,19 @@ html, body{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     background: #3b414d;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    text-align: justify
 }
 .navbar{
     padding: .8rem;
 }
 h3{
     padding-top: 5px;
+}
+.one{
+    text-align: justify;
 }
 .navbar-nav li{
     padding-right: 20px;
@@ -302,6 +309,16 @@ textarea {
     }
 }
 @media(max-width: 768px){
+    body{
+        height: 100%;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    background: #3b414d;
+    }
+    .navbar{
+        width: 100%;;
+    }
     .carousel-caption{
         top: 45%;
     }
