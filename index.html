@@ -20,7 +20,7 @@
 <nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container-fluid">
         <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse"
+        <button class="navbar-toggler" type="buttonNav" data-toggle="collapse"
         data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,14 +43,14 @@
     </div>
 </nav>
 <!--- Slider -->
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="home">
     <div class="row padding">
         <div class="col-lg-6">
             <form action="" id="form">
                 <input name="name" id="applicationName" placeholder="Name" data-validation="length" data-validation-length="min2" data-validation-error-msg="Слишком короткое имя"><br>
                 <input name="email" id="applicationEmail" placeholder="Email" data-validation="email" data-validation-error-msg="Введите корректный Email"><br>
                 <input name="telephone"   id="applicationTelephone" placeholder="Номер Телефона" data-validation="number" data-validation-error-msg="Введите номер телефона"><br>
-                <textarea name="message" placeholder="Message" id="applicationMessage" data-validation="length" data-validation-length="min20" maxlength="300" data-validation-error-msg="Слишком короткое сообщение"></textarea><br>
+                <textarea name="message" placeholder="Message" id="applicationMessage" data-validation="length" data-validation-length="min20" maxlength="200" data-validation-error-msg="Слишком короткое сообщение"></textarea><br>
                 <input type="button"  class="applicationButton" value="Отправить сообщение">
             </form>
         </div>
@@ -84,7 +84,7 @@
         </div>    
     </div>
 </div>
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="portfolio">
     <div class="row text-center padding">
         <div class="col-xs-12 col-sm-6 col-md-3">
             <a href="img/test.jpg" class="item__P" width="400" height="400" alt="dfgdfggh"><img src="img/test.jpg" class="portfolio" width="300" height="200"></a>
@@ -135,7 +135,7 @@
     </div>
     <hr class="my-4">
 </div>
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="services">
     <div class="row padding">
         <div class="col-lg-6">
             <h2>If you build it...</h2>
@@ -202,7 +202,7 @@
         </div>
         <hr class="my-4">
     </div>
-<div class="container-fluid padding">
+<div class="container-fluid padding" id="connect">
     <div class="row text-center padding">
         <div class="col-12">
             <h2>Connect</h2>
